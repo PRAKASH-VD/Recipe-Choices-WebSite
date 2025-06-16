@@ -39,7 +39,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className="pt-24">
       <SearchFilter
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
